@@ -19,10 +19,7 @@ plugins:
       pagination_per_page: 5
       archive_pagination_per_page: 10
       categories_pagination_per_page: 10
-      post_slugify: !!python/object/apply:ext.slugs.slugify
-        kwds:
-          short: true
-  - meta
+
   - tags
   - rss:
       match_path: "blog/posts/.*"
